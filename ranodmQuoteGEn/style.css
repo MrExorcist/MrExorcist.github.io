@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(19, 65, 65);
+}
+
+
+
+
+.quotes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 2px solid powderblue;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background-color: azure;
+    border: 20px solid burlywood;
+    color:dimgray ;
+}
+.quotes p{
+    font-size: large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

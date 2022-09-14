@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body{
-    background-color: rgb(19, 65, 65);
+    background-image: linear-gradient(rgb(45, 51, 158), rgb(215, 215, 172));
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
 }
-
-
-
-
 .quotes{
     position: absolute;
     top: 50%;
@@ -12,7 +13,7 @@ body{
     transform: translate(-50%,-50%);
     text-align: center;
     border: 2px solid powderblue;
-    width: 1000px;
+    width: 100vh;
     height: 500px;
     margin: auto;
     display: flex;
@@ -25,7 +26,26 @@ body{
     color:dimgray ;
 }
 .quotes p{
-    font-size: large;
+    font-size: 40px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn1{
+padding: 10px;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,650%);
+    font-size: 20px;
+   font-family: 'Nunito', sans-serif;
+    border-radius: 20px;
+    border: none;
+   background-color: rgb(118, 174, 222);
+    color: white;
+    cursor: pointer;
+    transition: 0.8sec;
+}
+.btn1:hover{
+    background-color: rgb(152, 216, 155);
 }

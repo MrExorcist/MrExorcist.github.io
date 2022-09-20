@@ -1,0 +1,14 @@
+body{
+    background-image:url(https://c.tenor.com/RniHhby9j_UAAAAC/aesthetic-black-aesthetic.gif);
+}
+
+div.clock{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    font-family:'Antonio', sans-serif;
+    font-size: 100px;
+    color:antiquewhite;
+}
